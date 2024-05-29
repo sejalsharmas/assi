@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cafe</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cinzel:wght@400..900&family=Crete+Round:ital@0;1&family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=El+Messiri:wght@400..700&family=Jacquard+24+Charted&family=Oswald:wght@200..700&family=Roboto+Slab:wght@100..900&family=Sedan+SC&family=Teko:wght@300..700&display=swap');
+        body{
+            background-color: #331a00;
+        }
+        .heading{
+         font-family: "Roboto Slab", serif;
+         font-size: 80px;
+         color: beige;
+         display: block;
+        text-align: center;
+        }
+        .line{
+            height: 2px;
+            background-color: beige;
+        }
+        .cards-container{
+            height: 440px;
+            width:auto;
+            display: flex;
+            flex-direction: row;
+            justify-content:center;
+            align-items: center;
+            justify-content:space-evenly;
+            position: relative;
+            margin-top: 60px;
+            flex-wrap: wrap;
+             }
+        .card1{
+          width: 300px;
+          height: 300px;
+          background-color: #663500;
+          border: 5px solid beige;
+          margin-bottom: 100px;
+          border-radius: 5px;
+          
+          
+        }
+        .card2{
+            width: 300px;
+          height: 300px;
+          background-color: #663500;
+          border: 5px solid beige;
+          margin-bottom: 100px;
+          border-radius: 5px; 
+        }
+        .card3{
+            width: 300px;
+          height: 300px;
+          background-color: #663500;
+          border: 5px solid beige;
+          margin-bottom: 100px;
+          border-radius: 5px;
+        }
+        .card4{
+            width: 300px;
+          height: 300px;
+          background-color: #663500;
+          border: 5px solid beige;
+          margin-bottom: 100px;
+          border-radius: 5px;
+        }
+        .img1{
+            display: block;
+         margin: 0 auto;
+         align-items: center;
+         height: 210px;
+         width: 273px;
+         padding: 10px;
+        }
+        .text1{
+            font-size: 35px;
+            font-family: "Roboto Slab", serif;
+            color: beige;
+            text-align: center;
+            display: block;
+        }
+        .text2{
+            font-size: 40px;
+            font-family: "Roboto Slab", serif;
+            color: beige;
+            margin-top: 400px;
+            position: absolute;
+        }
+        @media screen and (max-width: 500px) {
+            .heading{
+         font-family: "Roboto Slab", serif;
+         font-size: 50px;
+         color: beige;
+         display: block;
+        text-align: center;
+        }
+        .text2{
+            font-size: 26px;
+            font-family: "Roboto Slab", serif;
+            color: beige;
+            margin-top: 2650px;
+            text-align: center;
+            padding-bottom: 90px;
+        }
+        .card1{
+          width: 300px;
+          height: 300px;
+          background-color: #663500;
+          border: 5px solid beige;
+          margin-bottom: 50px;
+          border-radius: 5px;
+          
+          
+        }
+        .card2{
+            width: 300px;
+          height: 300px;
+          background-color: #663500;
+          border: 5px solid beige;
+          margin-bottom: 50px;
+          border-radius: 5px; 
+        }
+        .card3{
+            width: 300px;
+          height: 300px;
+          background-color: #663500;
+          border: 5px solid beige;
+          margin-bottom: 50px;
+          border-radius: 5px;
+        }
+        .card4{
+            width: 300px;
+          height: 300px;
+          background-color: #663500;
+          border: 5px solid beige;
+          margin-bottom: 50px;
+          border-radius: 5px;
+        }
+      }
+        @media screen and (max-width: 600px) {
+            .heading{
+         font-family: "Roboto Slab", serif;
+         font-size: 50px;
+         color: beige;
+         display: block;
+        text-align: center;
+        }
+        .text2{
+            font-size: 26px;
+            font-family: "Roboto Slab", serif;
+            color: beige;
+            margin-top: 2650px;
+            text-align: center;
+            padding-bottom: 90px;
+        }
+        .card1{
+          width: 300px;
+          height: 300px;
+          background-color: #663500;
+          border: 5px solid beige;
+          margin-bottom: 50px;
+          border-radius: 5px;
+          
+          
+        }
+        .card2{
+            width: 300px;
+          height: 300px;
+          background-color: #663500;
+          border: 5px solid beige;
+          margin-bottom: 50px;
+          border-radius: 5px; 
+        }
+        .card3{
+            width: 300px;
+          height: 300px;
+          background-color: #663500;
+          border: 5px solid beige;
+          margin-bottom: 50px;
+          border-radius: 5px;
+        }
+        .card4{
+            width: 300px;
+          height: 300px;
+          background-color: #663500;
+          border: 5px solid beige;
+          margin-bottom: 50px;
+          border-radius: 5px;
+        }
+        }
+         @media screen and (min-width: 769px) and (max-width: 992px) {
+            .text2{
+            font-size: 26px;
+            font-family: "Roboto Slab", serif;
+            color: beige;
+            margin-top: 1300px;
+            text-align: center;
+            padding-bottom: 90px;
+        }
+      }
+
+    </style>
+</head>
+<body>
+    <span class="heading">BARISTO</span>
+    <hr class="line">
+
+    <div class="cards-container">
+         <div class="card1">
+            <img class="img1" src="burger.webp" >
+            <span class="text1">BURGER</span>
+         </div>
+         <div class="card2">
+            <img class="img1" src="Cold-Coffee.png" >
+            <span class="text1">COFFEE</span>
+         </div>
+         <div class="card3">
+            <img class="img1" src="sandwhiches.jpg" >
+            <span class="text1">SANDWHICHES</span>
+         </div>
+         <div class="card4">
+            <img class="img1" src="pizza.jpg" >
+            <span class="text1">PIZZA</span>
+    </div>
+
+    <h1 class="text2">CHOOSE YOUR CRAVING AND FULLFILL YOUR MOOD</h1>
+</body>
+</html>
